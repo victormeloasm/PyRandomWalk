@@ -24,7 +24,7 @@ def complex_random_walk(num_steps, step_size_range=(0.1, 1.0), angle_range=(0, 2
 
 
 if __name__ == "__main__":
-    num_steps = 1000  # Number of steps in each random walk
+    num_steps = 10000  # Number of steps in each random walk
     num_walks = 10  # Number of random walks to generate
 
     for i in range(num_walks):
